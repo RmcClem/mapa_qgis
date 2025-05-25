@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="metadados_geoseade_equipamento-Equipamento">
+        <SrcDataSource relativeToVRT="1">metadados_geoseade_equipamento.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Equipamento</SrcLayer>
+        <Field name="Field1" src="Field1" type="String"/>
+        <Field name="Field2" src="Field2" type="String"/>
+        <Field name="Field3" src="Field3" type="String"/>
+        <Field name="Field6" src="Field6" type="String"/>
+        <Field name="Field7" src="Field7" type="String"/>
+        <Field name="Field8" src="Field8" type="String"/>
+        <Field name="Field9" src="Field9" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Field4" y="Field5"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
